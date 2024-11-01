@@ -1,0 +1,1 @@
+var vk_adnetwork_adblocker_test = true;

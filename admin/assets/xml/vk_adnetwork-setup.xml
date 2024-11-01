@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vk_adnetwork-export>
+    <ads type="array">
+        <item key="0" type="array">
+            <ID type="string">1</ID>
+            <post_content type="string">
+                <![CDATA[
+    <div style="text-align:center; width:100%;">
+      <ins class="mrg-tag" data-ad-query="via_plugin=1"
+        style="display:inline-block; text-decoration:none; width:{block__width}; height:{block__height};"
+        data-pad-id="{id}"
+        data-pad-description="{title_ad}"
+        data-ad-client="ad-{slot_id}"
+        data-ad-slot="{slot_id}"
+      ></ins>
+    </div>
+    <script> (MRGtag = window.MRGtag || []).push({}); </script>
+]]>
+            </post_content>
+            <post_title type="string">{title_ad}</post_title>
+            <post_status type="string">draft</post_status>
+            <meta_input type="array">
+                <vk_adnetwork_ad_options type="array">
+                    <output type="array">
+                        <allow_php type="string">0</allow_php>
+                        <position type="string">center_nofloat</position>
+                    </output>
+                    <type type="string">plain</type>
+                    <width type="numeric">{countEmbed__width}</width>
+                    <height type="numeric">{countEmbed__height}</height>
+                    <description type="string">Ваш первый рекламный блок</description>
+                    <placement_type type="string">post_top</placement_type>
+                    <pad_id type="numeric">{id}</pad_id>
+                    <slot_id type="numeric">{slot_id}</slot_id>
+                </vk_adnetwork_ad_options>
+            </meta_input>
+        </item>
+    </ads>
+    <placements type="array">
+        <item key="0" type="array">
+            <type type="string">post_top</type>
+            <name type="string">Before Content Placement</name>
+            <item type="string">ad_1</item>
+            <key type="string">before-content-placement</key>
+        </item>
+    </placements>
+</vk_adnetwork-export>

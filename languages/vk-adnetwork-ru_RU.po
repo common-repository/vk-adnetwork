@@ -1,0 +1,2482 @@
+# Copyright (C) 2023 VK
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-05-16 13:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Language: ru_RU\n"
+"Project-Id-Version: VK AdNetwork 1.40.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/vk-adnetwork/\n"
+"Last-Translator: \n"
+"Language-Team: Русский\n"
+"POT-Creation-Date: 2023-03-27 09:42+0000\n"
+"X-Domain: vk-adnetwork\n"
+"X-Loco-Version: 2.6.6; wp-6.5.2"
+
+#. %1$d is the number of ads, %2$s and %3$s are URLs.
+#: admin/includes/class-meta-box.php:429
+#, php-format
+msgid "%1$d ads – <a href=\"%2$s\">manage</a> - <a href=\"%3$s\">new</a>"
+msgstr ""
+"%1$d рекламных блоков – <a href=\"%2$s\">управление</a> - <a href=\"%3$s\">"
+"новый</a>"
+
+#. %s is the number of ads.
+#: admin/includes/class-ad-type.php:362
+#, php-format
+msgid "%s ad moved to the Trash."
+msgid_plural "%s ads moved to the Trash."
+msgstr[0] "%s рекламный блок перемещен в корзину."
+msgstr[1] "%s рекламных блока перемещены в корзину."
+msgstr[2] "%s рекламных блоков перемещены в корзину."
+
+#. %s is the number of ads.
+#: admin/includes/class-ad-type.php:358
+#, php-format
+msgid "%s ad not updated, somebody is editing it."
+msgid_plural "%s ads not updated, somebody is editing them."
+msgstr[0] "%s рекламный блок не обновлен, кто-то редактирует его(их)."
+msgstr[1] "%s рекламных блока не обновлено, кто-то редактирует их."
+msgstr[2] "%s рекламных блоков не обновлено, кто-то редактирует их."
+
+#. %s is the number of ads.
+#: admin/includes/class-ad-type.php:360
+#, php-format
+msgid "%s ad permanently deleted."
+msgid_plural "%s ads permanently deleted."
+msgstr[0] "%s рекламный блок удален навсегда."
+msgstr[1] "%s рекламных блока удалено навсегда."
+msgstr[2] "%s рекламных блоков удалено навсегда."
+
+#. %s is the number of ads.
+#: admin/includes/class-ad-type.php:364
+#, php-format
+msgid "%s ad restored from the Trash."
+msgid_plural "%s ads restored from the Trash."
+msgstr[0] "%s рекламный блок восстановлен из корзины."
+msgstr[1] "%s рекламных блока восстановлено из корзины."
+msgstr[2] "%s рекламных блока восстановлено из корзины."
+
+#. %s is the number of ads.
+#: admin/includes/class-ad-type.php:356
+#, php-format
+msgid "%s ad updated."
+msgid_plural "%s ads updated."
+msgstr[0] "%s рекламный блок обновлен."
+msgstr[1] "%s рекламных блока обновлено."
+msgstr[2] "%s рекламных блоков обновлено."
+
+#. (удалить все токены)
+#: admin/views/settings/general/vk-adnetwork-creds.php:163
+msgid "(delete all tokens)"
+msgstr "(удалить все токены)"
+
+#. (сколько токенов осталось)
+#: admin/views/settings/general/vk-adnetwork-creds.php:137
+msgid "(how many tokens are left)"
+msgstr "(сколько токенов осталось)"
+
+#: admin/views/settings.php:69
+msgid ""
+"(i.e., in order for it to become visible on the pages of your site, you will "
+"need it <b>Publish</b>)"
+msgstr ""
+"(т.е., чтобы она стала видна на страницах вашего сайта, вам надо будет её <b>"
+"Опубликовать</b>)"
+
+#. (если вставить сюда другой номер площадки - то новые пады будут создаваться в этой площадке)
+#: admin/views/settings/general/vk-adnetwork-creds.php:179
+msgid ""
+"(if you insert another site number here, then new pads will be created in "
+"this site)"
+msgstr ""
+"(если вставить сюда другой номер площадки - то новые пады будут создаваться "
+"в этой площадке)"
+
+#. (это поле заполнять не надо, оно заполнится само из клиент_ида/клиент_секрета)
+#: admin/views/settings/general/vk-adnetwork-creds.php:90
+#: admin/views/settings/general/vk-adnetwork-creds.php:113
+msgid ""
+"(this field does not need to be filled in, it will be filled in by itself "
+"from the client_id/client_secret)"
+msgstr ""
+"(это поле заполнять не надо, оно заполнится само из "
+"клиент_ида/клиент_секрета)"
+
+#. (это поле заполнять не надо, оно заполнится само при создании блока)
+#: admin/views/settings/general/vk-adnetwork-creds.php:204
+#: admin/views/settings/general/vk-adnetwork-creds.php:229
+msgid ""
+"(this field does not need to be filled in, it will be filled in by itself "
+"when creating the block)"
+msgstr "(это поле заполнять не надо, оно заполнится само при создании блока)"
+
+#. (это поле заполнять не надо, оно заполнится само при создании площадки)
+#: admin/views/settings/general/vk-adnetwork-creds.php:177
+msgid ""
+"(you do not need to fill in this field, it will be filled in by itself when "
+"creating the site) "
+msgstr ""
+"(это поле заполнять не надо, оно заполнится само при создании площадки) "
+
+#. - изменяют содержание постов и страниц
+#: admin/views/support.php:491
+msgid "- change the content of posts and pages"
+msgstr "- изменяют содержание постов и страниц"
+
+#. - оптимизируют или минимизируют код во внешнем интерфейсе
+#: admin/views/support.php:493
+msgid "- optimize or minimize the code in the external interface"
+msgstr "- оптимизируют или минимизируют код во внешнем интерфейсе"
+
+#: classes/widget.php:117
+msgid "--empty--"
+msgstr "--пусто--"
+
+#. %1$s is the month number, %2$s is the month shortname.
+#: admin/views/ad-submitbox-meta.php:31
+#, php-format
+msgctxt "1: month number (01, 02, etc.), 2: month abbreviation"
+msgid "%1$s-%2$s"
+msgstr "%1$s-%2$s"
+
+#. %s is the address of the VK advertising network's help page
+#: admin/views/settings.php:37 admin/views/notices/welcome-panel.php:28
+#, php-format
+msgid "<a href=\"%s\">How to do it</a>"
+msgstr "<a href=\"%s\">Как это сделать</a>"
+
+#. %s is the address of the WordPress widget editor
+#: admin/views/ad-parameters-size.php:100
+#, php-format
+#| msgid ""
+#| "<<a href=\"%s\">The WordPress widget editor</a>, where you can insert "
+#| "this ad block into the sidebar widget."
+msgid ""
+"<a href=\"%s\">The WordPress widget editor</a>, where you can insert this ad "
+"block into the sidebar widget."
+msgstr ""
+"<a href=\"%s\">Редактор виджетов вордпресса</a>, в нем можно вставить этот "
+"рекламный блок в виджет-сайдбар."
+
+#: admin/views/support.php:479
+msgid ""
+"<a href=\"https://codex.wordpress."
+"org/Using_Your_Browser_to_Diagnose_JavaScript_Errors\">This page</a> is the "
+"perfect resource for everything you need to know about how to detect "
+"JavaScript errors."
+msgstr ""
+"<a href=\"https://codex.wordpress."
+"org/Using_Your_Browser_to_Diagnose_JavaScript_Errors\">Эта страница</a> "
+"является идеальным ресурсом для всего, что вам нужно знать о том, как "
+"выявлять ошибки JavaScript."
+
+#: admin/views/settings.php:57
+msgid ""
+"<b>an advertising block</b> in the inPage format will be created in the site"
+msgstr "в площадке будет создан <b>рекламный блок</b> в формате inPage"
+
+#: admin/views/support.php:227
+msgid ""
+"<b>VK AdNetwork</b> offers various ways to include ad blocks on your website."
+msgstr ""
+"<b>«VK AdNetwork»</b> предлагает различные способы включения рекламных "
+"блоков на ваш веб-сайт."
+
+#: admin/views/support.php:389
+msgid "<b>VK AdNetwork</b> provides short codes for ad blocks."
+msgstr ""
+"<b>«VK AdNetwork»</b> предоставляет короткие коды для рекламных блоков."
+
+#. %s is the_content filter
+#: classes/frontend_checks.php:118
+#, php-format
+msgid "<em>%s</em> filter does not exist"
+msgstr "<em>%s</em> фильтр не существует"
+
+#. %s is a time and date string.
+#: admin/views/ad-list/timing.php:68
+#, php-format
+msgid "<strong>expired</strong> %s"
+msgstr "<strong>срок истек</strong> %s"
+
+#: admin/views/settings.php:60
+msgid ""
+"a <b>advertising position</b> will be created in the plugin - the code that "
+"calls this ad block"
+msgstr ""
+"в плагине будет создана <b>рекламная позиция</b> - код, который вызывает "
+"этот рекламный блок"
+
+#: admin/views/support.php:117
+msgid ""
+"a platform for your site in the account of the  <strong>VK Advertising "
+"network</strong> (its name will be <strong>WP: your-domain</strong>)"
+msgstr ""
+"площадку для вашего сайта в кабинете <strong>Рекламной сети VK</strong> (ее "
+"названием будет <strong>WP: ваш-домен</strong>)"
+
+#: admin/views/settings/general/vk-adnetwork-creds.php:88
+msgid "About access_token "
+msgstr "Описание для access_token "
+
+#: admin/views/settings/general/vk-adnetwork-creds.php:161
+msgid "About delete_tokens "
+msgstr "Описание для delete_tokens "
+
+#: admin/views/settings/general/vk-adnetwork-creds.php:111
+msgid "About refresh_token "
+msgstr "Описание для refresh_token "
+
+#: admin/views/settings/general/vk-adnetwork-creds.php:135
+msgid "About tokens_left "
+msgstr "Описание для tokens_left "
+
+#: admin/views/settings/general/vk-adnetwork-creds.php:84
+msgid "access_token"
+msgstr "аксесс-токен"
+
+#: admin/includes/class-overview-widgets.php:309
+msgid "active"
+msgstr "активен"
+
+#: classes/ad-debug.php:126 public/class-vk-adnetwork.php:711
+msgid "Ad"
+msgstr "Рекламный блок"
+
+#. Параметры рекламного блока
+#: admin/views/support.php:261 admin/views/support.php:281
+msgid "Ad Block Parameters"
+msgstr "Параметры рекламного блока"
+
+#: classes/frontend_checks.php:105
+msgid "Ad blocker enabled"
+msgstr "Включен блокировщик рекламы"
+
+#: admin/includes/class-ad-type.php:106
+msgid "Ad blocks"
+msgstr "Рекламные блоки"
+
+#: admin/views/support.php:198
+#| msgid ""
+#| "Ad blocks are the content that you want to display, for example, the "
+#| "banner of the VK Advertising Network."
+msgid ""
+"Ad blocks are the content that you want to display, for example, the banner "
+"of the <strong>VK Advertising Network</strong>."
+msgstr ""
+"Рекламные блоки — это контент, который вы хотите отобразить, например баннер "
+"<strong>Рекламной сети VK</strong>."
+
+#: public/views/ad-debug.php:13
+msgid "Ad debug output"
+msgstr "Результат отладки рекламного блока"
+
+#: admin/includes/class-ad-type.php:635
+msgid "Ad draft updated."
+msgstr "Черновик рекламного блока обновлен."
+
+#: admin/includes/ad-health-notices.php:82
+msgid "Ad expired"
+msgstr "Срок объявления истек"
+
+#: classes/frontend_checks.php:362
+msgid "Ad Health"
+msgstr "Рекламные блоки"
+
+#. %s -- empty space for ads IDs
+#: classes/frontend_checks.php:223
+#, php-format
+msgid "Ad IDs: %s"
+msgstr "ID объявлений: %s"
+
+#: admin/includes/class-meta-box.php:76
+msgid "Ad Parameters"
+msgstr "Параметры рекламного блока"
+
+#. %s is the formatted date timestamp of a revision
+#: admin/includes/class-ad-type.php:625
+#, php-format
+msgid "Ad restored to revision from %s"
+msgstr "Произведен откат объявления к версии от %s"
+
+#: admin/includes/class-ad-type.php:626 admin/includes/class-ad-type.php:627
+msgid "Ad saved."
+msgstr "Рекламный блок сохранен."
+
+#. %1$s is a date.
+#: admin/includes/class-ad-type.php:631
+#, php-format
+msgid "Ad scheduled for: <strong>%1$s</strong>."
+msgstr "Расписание объявления создано для: <strong>%1$s</strong>."
+
+#: admin/includes/class-meta-box.php:317
+msgid "Ad Settings"
+msgstr "Настройки рекламы"
+
+#: admin/includes/class-ad-type.php:110
+msgid "Ad Shortcode"
+msgstr "Шорткод рекламного блока"
+
+#: admin/includes/class-ad-type.php:628
+msgid "Ad submitted."
+msgstr "Объявление опубликовано."
+
+#: admin/includes/class-ad-type.php:622 admin/includes/class-ad-type.php:623
+msgid "Ad updated."
+msgstr "Рекламный блок обновлен."
+
+#. Внести ключи API
+#: admin/views/notices/welcome-panel.php:36
+msgid "Add API keys"
+msgstr "Внести ключи API"
+
+#. Добавить новый рекламный блок
+#: public/class-vk-adnetwork.php:715 admin/includes/class-menu.php:129
+msgid "Add New Ad"
+msgstr "Добавить новый рекламный блок"
+
+#: admin/includes/class-settings.php:318
+msgid "Administrator"
+msgstr "Администратор"
+
+#: classes/ad_placements.php:339 classes/widget.php:127
+#: admin/class-vk-adnetwork-admin.php:657 public/class-vk-adnetwork.php:710
+#: admin/includes/class-menu.php:114 admin/includes/class-menu.php:115
+#: modules/import-export/views/page.php:30
+msgid "Ads"
+msgstr "Реклама"
+
+#. %s is a target URL.
+#: admin/includes/ad-health-notices.php:67
+#, php-format
+msgid ""
+"Ads are disabled for all or some pages. See \"disabled ads\" in <a "
+"href=\"%s\">settings</a>."
+msgstr ""
+"Объявления отключены для одной или некоторых страниц. Проверьте раздел "
+"\"отключенные объявления\" in <a href=\"%s\">настройках</a>."
+
+#: classes/frontend_checks.php:134
+msgid "Ads are disabled in the content of this page"
+msgstr "Рекламные блоки отключены в контенте этой страницы"
+
+#: classes/frontend_checks.php:194
+msgid "Ads are disabled on 404 pages"
+msgstr "Объявления отключены на страницах 404"
+
+#: classes/frontend_checks.php:179
+msgid "Ads are disabled on all pages"
+msgstr "Объявления на этой странице выключены"
+
+#: classes/frontend_checks.php:208
+msgid "Ads are disabled on non singular pages"
+msgstr "Объявления отключены на множественных страницах"
+
+#: classes/frontend_checks.php:165
+msgid "Ads are disabled on this page"
+msgstr "Рекламные блоки отключены на этой странице"
+
+#: admin/views/feedback-disable.php:33
+msgid "Ads are not showing up"
+msgstr "Реклама не отображается"
+
+#: admin/includes/class-ad-type.php:112
+msgid "Ads planning"
+msgstr "Планировщик рекламы"
+
+#: admin/includes/class-overview-widgets.php:17
+msgid "Advertising statistics on site"
+msgstr "Cтатистика рекламы на сайте"
+
+#: classes/ad_placements.php:74
+msgid "After Content"
+msgstr "После контента"
+
+#. %s is the address of the page with the settings of this plugin
+#: admin/views/support.php:131
+#, php-format
+msgid ""
+"After creating the ad block, it will be editable on the page <a href=\"%s\" "
+"target=\"_blank\">\"Advertising\"</a>"
+msgstr ""
+"После создания рекламный блок будет доступен для редактирования на странице "
+"<a href=\"%s\" target=\"_blank\">«Реклама»</a>"
+
+#. После включения галочки реклама будет транслироваться в тестовом режиме, без начисления показов и денег.
+#: admin/views/support.php:577
+msgid ""
+"After enabling the check mark, the advertisement will be broadcast in test "
+"mode, without accrual of impressions and money."
+msgstr ""
+"После включения галочки реклама будет транслироваться в тестовом режиме, без "
+"начисления показов и денег."
+
+#. После включения выходные данные рекламного блока будут заменены отладочным содержимым.
+#: admin/views/support.php:540
+msgid ""
+"After enabling, the output of the ad block will be replaced with debugging "
+"content."
+msgstr ""
+"После включения выходные данные рекламного блока будут заменены отладочным "
+"содержимым."
+
+#: admin/views/settings.php:42
+msgid "After receiving the access keys, enter them in the fields below."
+msgstr "После получения ключей доступа введите их в поля ниже."
+
+#: admin/views/support.php:143
+msgid ""
+"After registering in the <strong>VK Advertising Network</strong> and "
+"providing all the necessary data, we will check the information within 24 "
+"hours."
+msgstr ""
+"После регистрации в <strong>Рекламной сети VK</strong>  и указания всех "
+"необходимых данных мы проверим информацию в течение 24 часов."
+
+#. После чего вы можете опубликовать рекламный блок (начать трансляцию рекламы).
+#: admin/views/support.php:137
+msgid "After that, you can publish the ad block (start broadcasting the ad)."
+msgstr ""
+"После чего вы можете опубликовать рекламный блок (начать трансляцию рекламы)."
+
+#: admin/views/support.php:321
+msgid "After the content"
+msgstr "После контента"
+
+#: admin/class-vk-adnetwork-admin.php:274
+msgid "After which paragraph?"
+msgstr "После какого параграфа?"
+
+#: admin/includes/class-meta-box.php:85
+msgid "Align block vertically"
+msgstr "Выравнивание блока по вертикали"
+
+#: admin/class-vk-adnetwork-admin.php:282
+msgid "All"
+msgstr "Все"
+
+#: admin/views/ad-list-filters.php:28
+msgid "all ad dates"
+msgstr "все даты объявлений"
+
+#: admin/views/ad-list-filters.php:19
+msgid "all ad sizes"
+msgstr "все размеры рекламных блоков"
+
+#. Все плагины кэширования позволяют отключить кэширование для зарегистрированных пользователей, что является лучшим вариантом для быстрого просмотра изменений.
+#: admin/views/support.php:450
+msgid ""
+"All caching plugins allow you to disable caching for registered users, which "
+"is the best option for quickly viewing changes."
+msgstr ""
+"Все плагины кэширования позволяют отключить кэширование для "
+"зарегистрированных пользователей, что является лучшим вариантом для быстрого "
+"просмотра изменений."
+
+#: admin/includes/class-overview-widgets.php:323
+msgid "All pads"
+msgstr "Все рекламные блоки"
+
+#. %s is the title of the website.
+#: admin/views/feedback-disable.php:53
+#, php-format
+msgid "All the best to you and %s."
+msgstr "Всего наилучшего вам и %s."
+
+#. Всегда проверяйте это в первую очередь:
+#: admin/views/support.php:426
+msgid "Always check this first:"
+msgstr "Всегда проверяйте это в первую очередь:"
+
+#: admin/includes/class-overview-widgets.php:53
+msgid "Amount"
+msgstr "Доход"
+
+#. рекламный блок на всех страницах вашего сайта в Wordpress, расположенный над контентом.
+#: admin/views/support.php:122
+msgid ""
+"an ad block on all pages of your Wordpress site, located above the content."
+msgstr ""
+"рекламный блок на всех страницах вашего сайта в Wordpress, расположенный над "
+"контентом."
+
+#. 1: An error message.
+#: admin/class-vk-adnetwork-admin.php:281
+#, php-format
+msgid "An error occurred: %1$s"
+msgstr "Произошла ошибка: %1$s"
+
+#: admin/class-vk-adnetwork-admin.php:273
+msgid "and"
+msgstr "и"
+
+#. и вы можете поменять позицию рекламного блока.
+#: admin/views/support.php:135
+msgid "and you can change the position of the ad block."
+msgstr "и вы можете поменять позицию рекламного блока."
+
+#. %s is the address of the support on the VK advertising network
+#: admin/views/support.php:180
+#, php-format
+#| msgid "Any other questions? <a href=\"%s\" target=\"_blank\">Ask us</a>."
+msgid ""
+"Any other questions? <a href=\"mailto:%s\" target=\"_blank\">Ask us</a>."
+msgstr ""
+"Остались вопросы? <a href=\"mailto:%s\" target=\"_blank\">Спросите у нас</a>."
+
+#: admin/includes/class-settings.php:320
+msgid "Author"
+msgstr "Автор"
+
+#. Авторизация: это в черном меню слева (под)заголовок! новичкам кастомизация!
+#: admin/includes/class-menu.php:72
+msgid "Authorization"
+msgstr "Авторизация"
+
+#. Автооптимизация
+#: admin/views/support.php:467
+msgid "Auto-optimization"
+msgstr "Автооптимизация"
+
+#: admin/views/ad-parameters-size.php:59
+msgid "available only in themes that support widgets (sidebar).<br>"
+msgstr "available only in themes that support widgets (sidebar).<br>"
+
+#: admin/class-vk-adnetwork-admin.php:650
+msgid "Back to list"
+msgstr "Назад к списку"
+
+#: classes/ad_placements.php:48
+msgid "Before Content"
+msgstr "Сверху контента"
+
+#: admin/views/settings.php:72
+msgid ""
+"before publishing, you can change the placement and/or size of your block"
+msgstr ""
+"перед публикацией вы можете изменить размещение и/или размеры вашего блока"
+
+#: modules/import-export/views/page.php:58
+msgid ""
+"Before you can upload your import file, you will need to fix the following "
+"error:"
+msgstr "Перед загрузкой файла исправьте следующую ошибку:"
+
+#. Начало
+#. Начало (недопереведено т.к. времянка)
+#: admin/views/support.php:34 admin/views/support.php:192
+msgid "Beginning"
+msgstr "Начало"
+
+#: admin/includes/class-ad-type.php:105
+msgid "Block"
+msgstr "Блок"
+
+#. Блок в VK AdNetwork
+#: admin/views/ad-parameters-size.php:73
+msgid "Block in VK AdNetwork"
+msgstr "Блок в VK AdNetwork"
+
+#: admin/includes/class-overview-widgets.php:310
+msgid "blocked"
+msgstr "остановлен"
+
+#. Блоки размером 300х600 и 300х250 можно разместить в боковой панели вашего сайта.
+#: admin/views/support.php:346
+msgid ""
+"Blocks of 300x600 and 300x250 sizes can be placed in the sidebar of your "
+"site."
+msgstr ""
+"Блоки размером 300х600 и 300х250 можно разместить в боковой панели вашего "
+"сайта."
+
+#: admin/views/placement-injection-top.php:91
+msgid "Bottom section"
+msgstr "В нижней секции"
+
+#. Проверьте наличие конфликтов между плагинами и темами
+#: admin/views/support.php:484
+msgid "Check for conflicts between plugins and themes"
+msgstr "Проверьте наличие конфликтов между плагинами и темами"
+
+#. Проверьте наличие проблем с JavaScript
+#: admin/views/support.php:475
+msgid "Check for problems with JavaScript"
+msgstr "Проверьте наличие проблем с JavaScript"
+
+#. Проверьте в другом браузере или устройстве. Если там появляется реклама, это может быть вызвано блокировщиком рекламы или аналогичным скриптом. См. выше.
+#: admin/views/support.php:445
+msgid ""
+"Check in another browser or device. If an advertisement appears there, it "
+"may be caused by an ad blocker or a similar script. See above."
+msgstr ""
+"Проверьте в другом браузере или устройстве. Если там появляется реклама, это "
+"может быть вызвано блокировщиком рекламы или аналогичным скриптом. См. выше."
+
+#. Проставьте галочку в чекбоксе Включить режим отладки (VK AdNetwork).
+#: admin/views/support.php:572
+msgid "Check the Enable Debugging Mode (VK AdNetwork) checkbox."
+msgstr "Проставьте галочку в чекбоксе Включить режим отладки (VK AdNetwork)."
+
+#. Проставьте галочку в чекбоксе Включить режим отладки (WordPress).
+#: admin/views/support.php:535
+msgid "Check the Enable Debugging Mode (WordPress) checkbox."
+msgstr "Проставьте галочку в чекбоксе Включить режим отладки (WordPress)."
+
+#. Проверьте предупреждения на админ-панели
+#: admin/views/support.php:453
+msgid "Check the warnings on the admin panel"
+msgstr "Проверьте предупреждения на админ-панели"
+
+#. Проверьте настройки антивируса. Например, в Антивирусе Касперского есть опция под названием «Антибаннер».
+#: admin/views/support.php:433
+msgid ""
+"Check your antivirus settings. For example, Kaspersky Anti-Virus has an "
+"option called \"AntiBanner\"."
+msgstr ""
+"Проверьте настройки антивируса. Например, в Антивирусе Касперского есть "
+"опция под названием «Антибаннер»."
+
+#: modules/import-export/views/page.php:50
+msgid "Choose an XML file"
+msgstr "Выбрать XML файл"
+
+#: admin/views/settings/general/vk-adnetwork-uninstall-delete-data.php:12
+#| msgid "Clean up all data related to VK AdNetwork when removing the plugin."
+msgid "Clean up all data related to VK AdNetwork when removing the plugin."
+msgstr "Очистите все данные, связанные с VK AdNetwork, при удалении плагина."
+
+#: admin/views/settings/general/vk-adnetwork-creds.php:21
+msgid "client_id"
+msgstr "client_id"
+
+#: admin/views/settings/general/vk-adnetwork-creds.php:46
+msgid "client_secret"
+msgstr "client_secret"
+
+#: admin/class-vk-adnetwork-admin.php:287
+msgid "Close"
+msgstr "Закрыть"
+
+#. CloudFlare — проблемы могут возникнуть при включенном загрузчике Rocket.
+#: admin/views/support.php:469
+msgid "CloudFlare — problems may occur when the Rocket loader is enabled."
+msgstr ""
+"CloudFlare — проблемы могут возникнуть при включенном загрузчике Rocket."
+
+#. Поздравляем! Модерация пройдена
+#: admin/views/notices/moderation-done-panel.php:5
+msgid "Congratulations! Moderation passed"
+msgstr "Поздравляем! Модерация пройдена"
+
+#: classes/ad_placements.php:61
+msgid "Content"
+msgstr "Содержание"
+
+#: modules/import-export/views/page.php:51
+msgid "Copy an XML content"
+msgstr "Скопировать содержимое XML"
+
+#: classes/ad_placements.php:109
+msgid ""
+"Create a sidebar widget with an ad. Can be placed and used like any other "
+"widget."
+msgstr ""
+"Создайте виджет боковой панели с рекламой. Может быть размещен и использован "
+"как любой другой виджет."
+
+#: classes/ad-debug.php:46
+msgid "current post"
+msgstr "текущая запись"
+
+#: classes/ad-debug.php:50
+msgid "Current post is not identical to main post."
+msgstr "Текущая запись не идентична главной."
+
+#: classes/ad-debug.php:100
+msgid "current query"
+msgstr "текущий запрос"
+
+#: classes/ad-debug.php:40
+msgid "Current query is not identical to main query."
+msgstr "Текущий запрос не идентичен основному."
+
+#: admin/includes/class-meta-box.php:413 admin/includes/class-menu.php:87
+#: admin/includes/class-menu.php:101 admin/includes/class-menu.php:102
+msgid "Dashboard"
+msgstr "Статистика"
+
+#: admin/class-vk-adnetwork-admin.php:288
+msgid ""
+"Data you have entered has not been saved. Are you sure you want to discard "
+"your changes?"
+msgstr ""
+"Введенные вами данные не были сохранены. Вы уверены, что хотите отменить "
+"внесенные изменения?"
+
+#: admin/views/ad-submitbox-meta.php:38
+msgid "Day"
+msgstr "День"
+
+#: admin/includes/class-meta-box.php:93
+msgid "Debug mode"
+msgstr "Режим отладки"
+
+#: admin/views/settings/general/vk-adnetwork-creds.php:157
+msgid "Delete tokens"
+msgstr "Удалить токены"
+
+#: admin/includes/class-overview-widgets.php:311
+msgid "deleted"
+msgstr "заархивирован (удалён)"
+
+#: admin/includes/class-settings.php:172
+msgid "Deleting plugin data"
+msgstr "Удаление данных плагина"
+
+#: admin/includes/class-overview-widgets.php:306
+msgid "delivering"
+msgstr "транслируется"
+
+#: admin/includes/class-overview-widgets.php:99
+msgid "Delivery status"
+msgstr "Статус трансляции"
+
+#. %s is the address of the statistics page.
+#: admin/includes/class-overview-widgets.php:80
+#, php-format
+#| msgid ""
+#| "Detailed reports can be downloaded <a href=\"%s\">in the Statistics "
+#| "section of the partner network</a>"
+msgid ""
+"Detailed reports can be downloaded <a href=\"%s\" target=\"_blank\">in the "
+"Statistics section of the partner network</a>"
+msgstr ""
+"Подробные отчёты можно скачать <a href=\"%s\" target=\"_blank\">в разделе "
+"«Статистика» партнёрской сети</a>"
+
+#. Отключить Ad Health и остальные уведомления
+#: admin/includes/class-settings.php:153
+msgid "Disable Ad Health and other notices"
+msgstr "Отключить Ad Health и остальные уведомления"
+
+#. Отключите Здоровье рекламы во фронтенде и бэкенде, предупреждения и внутренние уведомления - такие, как подсказки, руководства, новостные рассылки и уведомления об обновлениях.
+#: admin/views/settings/general/vk-adnetwork-disable-notices.php:12
+msgid ""
+"Disable Ad Health in frontend and backend, warnings and internal notices "
+"like tips, tutorials, email newsletters and update notices."
+msgstr ""
+"Отключите Ad Health во фронтенде и бэкенде, предупреждения и внутренние "
+"уведомления - такие, как подсказки, руководства, новостные рассылки и "
+"уведомления об обновлениях."
+
+#: admin/views/post-ad-settings-metabox.php:14
+msgid "Disable ads on this page"
+msgstr "Не показывать объявления на этой странице"
+
+#. Отключите все блокировщики рекламы
+#: admin/views/support.php:429
+msgid "Disable all ad blockers"
+msgstr "Отключите все блокировщики рекламы"
+
+#. Отключить все объявления во фронтенде
+#: admin/views/settings/general/vk-adnetwork-disable-ads.php:15
+msgid "Disable all ads in frontend"
+msgstr ""
+"Отключить все объявления во фронтенде\n"
+
+#. Блок настроек отключения рекламы
+#: admin/includes/class-settings.php:129
+msgid "Disable all ads on the blog"
+msgstr "Отключение всей рекламы в блоге"
+
+#. Отключите кэширование
+#: admin/views/support.php:448
+msgid "Disable caching"
+msgstr "Отключите кэширование"
+
+#: classes/in-content-injector.php:619
+msgid "Disable level limitation"
+msgstr "Отключить лимит по уровню"
+
+#. Отключите функции оптимизации кода
+#: admin/views/support.php:458
+msgid "Disable the code optimization features"
+msgstr "Отключите функции оптимизации кода"
+
+#: admin/views/feedback-disable.php:56
+msgid "Disabling the plugin now…"
+msgstr "Отключение плагина сейчас ..."
+
+#: admin/views/notices/promo.php:46
+msgid "Dismiss this notice."
+msgstr "Скрыть это уведомление."
+
+#: classes/widget.php:34
+msgid "Display Ads."
+msgstr "Показать объявления."
+
+#: modules/import-export/views/page.php:34
+msgid "Download Export File"
+msgstr "Загрузить файл экспорта"
+
+#: admin/includes/class-overview-widgets.php:76
+msgid "Dynamics of changes in the main metrics of your advertising."
+msgstr "Динамика изменения основных метрик вашей рекламы."
+
+#: public/class-vk-adnetwork.php:716
+#: modules/import-export/classes/import.php:171
+msgid "Edit"
+msgstr "Изменить"
+
+#: public/class-vk-adnetwork.php:717
+msgid "Edit Ad"
+msgstr "Редактировать рекламный блок"
+
+#: admin/includes/class-settings.php:319
+msgid "Editor"
+msgstr "Редактор"
+
+#. Встраивание рекламы на ваш сайт
+#: admin/views/support.php:39 admin/views/support.php:221
+#: admin/views/support.php:249
+msgid "Embedding ads on your site"
+msgstr "Встраивание рекламы на ваш сайт"
+
+#: admin/views/ad-list/view-list.php:27
+msgid "Empty Trash"
+msgstr "Очистить корзину"
+
+#: admin/views/ad-output-metabox.php:32 admin/views/ad-output-metabox.php:43
+msgid "Enable debug mode"
+msgstr "Включить режим отладки"
+
+#. Включение режима отладки рекламы
+#: admin/views/support.php:524 admin/views/support.php:556
+msgid "Enabling the ad debugging mode"
+msgstr "Включение режима отладки рекламы"
+
+#: admin/views/ad-submitbox-meta.php:20
+msgid "End ad serving"
+msgstr "Завершить показ рекламы"
+
+#. %s is the address of the page with the settings of this plugin
+#: admin/views/support.php:101
+#, php-format
+#| msgid ""
+#| "Enter the received data on the page <a href=\"%s\" target=\"_blank\">"
+#| "\"Settings\"</a>."
+msgid "Enter the received data on the page <a href=\"%s\">\"Settings\"</a>."
+msgstr "Ввести полученые данные на странице <a href=\"%s\">«Настройки»</a>."
+
+#: classes/utils.php:455
+msgid "Error! No slot_id"
+msgstr "Ошибка! Нет slot_id"
+
+#: classes/frontend_checks.php:394
+msgid "Everything is fine"
+msgstr "Все прекрасно"
+
+#: classes/ad-expiration.php:85
+msgid "Expired"
+msgstr "Просрочено"
+
+#. %s is a time and date string.
+#: admin/views/ad-list/timing.php:58
+#, php-format
+msgid "expires %s"
+msgstr "заканчивается %s"
+
+#: modules/import-export/views/page.php:23
+msgid "Export"
+msgstr "Экспорт"
+
+#. %s is the ad-post title
+#: modules/import-export/classes/import.php:164
+#, php-format
+msgid "Failed to import <em>%s</em>"
+msgstr "Не удался импорт  <em>%s</em>"
+
+#. %s is an error message
+#: modules/import-export/classes/import.php:386
+#, php-format
+msgid "Failed to upload file, error: <em>%s</em>"
+msgstr "Не удалось загрузить файл, ошибка: <em>%s</em>"
+
+#: modules/import-export/classes/import.php:370
+msgid ""
+"File is empty, uploads are disabled or post_max_size is smaller than "
+"upload_max_filesize in php.ini"
+msgstr ""
+"Файл пустой, загрузки отключены или post_max_size меньше чем "
+"upload_max_filesize в файле php.ini"
+
+#: modules/import-export/classes/import.php:391
+msgid "File is empty."
+msgstr "Файл пустой."
+
+#: admin/views/header.php:54 admin/views/ad-list/screen-options.php:20
+msgid "Filters"
+msgstr "Фильтры"
+
+#: public/views/ad-debug.php:15
+msgid "Find solutions in the manual"
+msgstr "Найти решения в руководстве"
+
+#: admin/views/placement-injection-top.php:116
+msgid "Footer"
+msgstr "Нижний колонтитул"
+
+#: classes/ad_placements.php:99
+msgid "Footer Code"
+msgstr "Нижний колонтитул"
+
+#: admin/views/support.php:338
+msgid "footer of the page"
+msgstr "в нижнем колонтитуле страницы"
+
+#. Для любых размеров и форматов рекламных блоков можно воспользоваться вставкой в любые места страниц через шорткод.
+#: admin/views/support.php:362
+msgid ""
+"For all sizes and formats of ad blocks, you can use the insertion of pages "
+"in any place via a shortcode."
+msgstr ""
+"Для любых размеров и форматов рекламных блоков можно воспользоваться "
+"вставкой в любые места страниц через шорткод."
+
+#. Для рекламного блока формата «InPage» вы можете выбрать три варианта расположения рекламы в разделе «Выравнивание блока по вертикали»:
+#: admin/views/support.php:293
+msgid ""
+"For an \"InPage\" format ad block, you can select three options for placing "
+"ads in the ”Vertical alignment of the block”:"
+msgstr ""
+"Для рекламного блока формата «InPage» вы можете выбрать три варианта "
+"расположения рекламы в разделе «Выравнивание блока по вертикали»:"
+
+#. Для блоков размером 970х250 доступно расположение в нижнем колонтитуле страницы.
+#: admin/views/support.php:330
+msgid ""
+"For blocks with a size of 970x250, the location in the footer of the page is "
+"available."
+msgstr ""
+"Для блоков размером 970х250 доступно расположение в нижнем колонтитуле "
+"страницы."
+
+#: admin/includes/class-overview-widgets.php:167
+#: admin/includes/class-overview-widgets.php:196
+msgid ""
+"For the first few days we will collect statistics to show reliable data. "
+"Charts are coming soon."
+msgstr ""
+"Первые насколько дней мы будем собирать статистику, чтобы показать "
+"достоверные данные. Графики скоро появятся."
+
+#: admin/views/settings.php:22
+msgid "General"
+msgstr "Основные"
+
+#: admin/views/support.php:93
+#, php-format
+msgid ""
+"Get <strong>client_id</strong> and <strong>client_secret</strong> (<a "
+"href=\"%s\" target=\"_blank\">how to do it</a>);"
+msgstr ""
+"Получить <strong>client_id</strong> и <strong>client_secret</strong> (<a "
+"href=\"%s\" target=\"_blank\">как это сделать</a>);"
+
+#: classes/ad-health-notices.php:821 classes/frontend_checks.php:405
+msgid "Get help"
+msgstr "Помощь"
+
+#: admin/includes/class-overview-widgets.php:109
+msgid "Group status"
+msgstr "Статус площадки"
+
+#: admin/views/settings/general/vk-adnetwork-creds.php:170
+msgid "group_id"
+msgstr "id площадки"
+
+#: admin/includes/class-overview-widgets.php:92
+msgctxt "group_pad"
+msgid "active"
+msgstr "площадка активна"
+
+#: admin/includes/class-overview-widgets.php:93
+msgctxt "group_pad"
+msgid "blocked"
+msgstr "площадка остановлена"
+
+#: admin/includes/class-overview-widgets.php:94
+msgctxt "group_pad"
+msgid "deleted"
+msgstr "площадка заархивирована (удалена)"
+
+#: admin/includes/class-overview-widgets.php:89
+msgctxt "group_pad"
+msgid "delivering"
+msgstr "транслируется"
+
+#: admin/includes/class-overview-widgets.php:91
+msgctxt "group_pad"
+msgid "not_delivering"
+msgstr "не транслируется"
+
+#: admin/includes/class-overview-widgets.php:90
+msgctxt "group_pad"
+msgid "test_delivering"
+msgstr "тестовая трансляция"
+
+#: admin/includes/class-overview-widgets.php:133
+msgid "GROUP_PAD_ARCHIVED"
+msgstr "Площадка заархивирована (удалена)."
+
+#: admin/includes/class-overview-widgets.php:130
+msgid "GROUP_PAD_BANNED"
+msgstr "Площадка забанена на модерации."
+
+#: admin/includes/class-overview-widgets.php:140
+msgid "GROUP_PAD_MODERATION_REASON_BAD_CONTENT"
+msgstr "Контент площадки не соответствует правилам Таргета"
+
+#: admin/includes/class-overview-widgets.php:142
+msgid "GROUP_PAD_MODERATION_REASON_CUSTOM"
+msgstr "Площадка не найдена"
+
+#: admin/includes/class-overview-widgets.php:143
+msgid "GROUP_PAD_MODERATION_REASON_LAW"
+msgstr ""
+"Площадка не соответствует требованиям действующего законодательства РФ и/или "
+"правилам VK AdNetwork."
+
+#: admin/includes/class-overview-widgets.php:141
+msgid "GROUP_PAD_MODERATION_REASON_PARTNER_IS_NOT_OWNER"
+msgstr ""
+"Мы сомневаемся, что указанный веб-сайт / приложение принадлежит вам. Чтобы "
+"разблокировать веб-сайт / приложение, пожалуйста, подтвердите, что вы "
+"являетесь владельцем веб-сайта / приложения, и предоставьте подтверждающие "
+"документы."
+
+#: admin/includes/class-overview-widgets.php:128
+#: admin/views/notices/other-issues-panel.php:17
+msgid "GROUP_PAD_ON_MODERATION"
+msgstr "Площадка только что создана и ещё не прошла модерацию."
+
+#: admin/includes/class-overview-widgets.php:131
+msgid "GROUP_PAD_STOPPED"
+msgstr "Площадка остановлена."
+
+#: admin/class-vk-adnetwork-admin.php:285
+msgid "Hide inactive ads"
+msgstr "Скрыть неактивные объявления"
+
+#: classes/frontend_checks.php:249
+msgid "highlight ads"
+msgstr "подсветить рекламные блоки"
+
+#: admin/views/ad-submitbox-meta.php:40
+msgid "Hour"
+msgstr "Час"
+
+#. URI of the plugin
+msgid "https://ads.vk.com/"
+msgstr "https://ads.vk.com/"
+
+#: admin/views/feedback-disable.php:17
+msgid "I have a problem, a question or need help."
+msgstr "У меня проблема, вопрос или нужна помощь."
+
+#: admin/views/feedback-disable.php:35
+msgid "I miss a feature"
+msgstr "Мне не хватает функциональности"
+
+#: admin/views/feedback-disable.php:37
+msgid "I stopped using ads on my site."
+msgstr "Я перестал(а) использовать рекламу на сайте."
+
+#: admin/views/feedback-disable.php:38
+msgid "I switched to another plugin"
+msgstr "Я выбрал другой плагин"
+
+#. Идер (последнего созданного) блока
+#: admin/views/settings/general/vk-adnetwork-creds.php:202
+msgid "Id of the (last created) block "
+msgstr "Идер (последнего созданного) блока"
+
+#. Идер слота (последнего созданного) блока
+#: admin/views/settings/general/vk-adnetwork-creds.php:227
+msgid "ID of the slot of the (last created) block "
+msgstr "Идер слота (последнего созданного) блока "
+
+#. Идер площадки
+#: admin/views/settings/general/vk-adnetwork-creds.php:175
+msgid "Ider of the site "
+msgstr "Идер площадки "
+
+#. Если реклама не отображается
+#: admin/views/support.php:60 admin/views/support.php:418
+msgid "If the advertisement is not displayed"
+msgstr "Если реклама не отображается"
+
+#. Если вы хотите показывать рекламу в разных местах размещения, рекомендуем завести новый рекламный блок.
+#: admin/views/support.php:171
+msgid ""
+"If you want to show ads in different placements, we recommend starting a new "
+"ad unit."
+msgstr ""
+"Если вы хотите показывать рекламу в разных местах размещения, рекомендуем "
+"завести новый рекламный блок."
+
+#: modules/import-export/views/page.php:39
+msgid "Import"
+msgstr "Импорт"
+
+#: modules/import-export/main.php:19 modules/import-export/main.php:20
+msgid "Import &amp; Export"
+msgstr "Импорт &amp; Экспорт"
+
+#. %s is the dump of $data (var_export)
+#: modules/import-export/classes/XmlEncoder.php:153
+#, php-format
+msgctxt "import_export"
+msgid "An unexpected value could not be serialized: %s"
+msgstr "Неожиданное значение не может быть сериализовано: %s"
+
+#: modules/import-export/classes/XmlEncoder.php:216
+msgctxt "import_export"
+msgid "Invalid XML data, it can not be empty"
+msgstr "Неправильные данные XML, они не могут быть пустыми"
+
+#: modules/import-export/classes/XmlEncoder.php:79
+msgctxt "import_export"
+msgid "The data must be an array"
+msgstr "Тип данных должен быть массивом"
+
+#. %s is an error message
+#: modules/import-export/classes/XmlEncoder.php:251
+#, php-format
+msgctxt "import_export"
+msgid "XML error: %s"
+msgstr "Ошибка XML: %s"
+
+#. Кроме того, будут игнорироваться все ограничения показа рекламного блока (условия показа, условия посещения, срок действия).
+#: admin/views/support.php:545
+msgid ""
+"In addition, all restrictions on the display of the ad block (display "
+"conditions, visit conditions, expiration date) will be ignored."
+msgstr ""
+"Кроме того, будут игнорироваться все ограничения показа рекламного блока "
+"(условия показа, условия посещения, срок действия)."
+
+#. %s is the email of the support service and moderators of the VK advertising network
+#: admin/views/settings.php:81
+#, php-format
+#| msgid ""
+#| "In case of technical problems with plugin <strong>VK AdNetwork</strong> "
+#| "or with displaying ads, please contact <a href=\"mailto:%s\" "
+#| "target=\"_blank\">support service</a>"
+msgid ""
+"In case of technical problems with plugin <b>VK AdNetwork</b> or with "
+"displaying ads, please contact <a href=\"mailto:%s\" target=\"_blank\">"
+"support service</a>"
+msgstr ""
+"В случае возникновения технических проблем с плагином <b>VK AdNetwork</b> "
+"или с отображением рекламы обращайтесь в <a href=\"mailto:%s\" "
+"target=\"_blank\">службу поддержки</a>"
+
+#: admin/views/placement-injection-top.php:66
+msgid "In page content"
+msgstr "В контенте страницы"
+
+#. В контенте страницы
+#: admin/views/support.php:304
+msgid "In the content of the page"
+msgstr "В контенте страницы"
+
+#. В нижней секции
+#: admin/views/support.php:309
+msgid "In the lower section"
+msgstr "В нижней секции"
+
+#: admin/views/support.php:320
+msgid "In the middle of the content (after some paragraph)"
+msgstr "В середине контента (после какого-то абзаца)"
+
+#. В разделе «Параметры рекламного блока» вы сможете выбрать варианты отображения рекламного блока.
+#: admin/views/support.php:274
+msgid ""
+"In the section \"Ad Block Parameters\" you can select the display options "
+"for the ad block."
+msgstr ""
+"В разделе «Параметры рекламного блока» вы сможете выбрать варианты "
+"отображения рекламного блока."
+
+#. В верхней секции
+#: admin/views/support.php:299
+msgid "In the upper section"
+msgstr "В верхней секции"
+
+#: classes/ad_placements.php:75
+msgid "Injected after the post content."
+msgstr "Вставлено после содержимого записи."
+
+#: classes/ad_placements.php:49
+msgid "Injected before the post content."
+msgstr "Вставлено до содержимого записи."
+
+#: classes/ad_placements.php:100
+msgid "Injected in Footer (before closing &lt;/body&gt; Tag)."
+msgstr "Вставлено в нижний колонтитул (перед закрывающим тэгом &lt;/body&gt;)."
+
+#: classes/ad_placements.php:62
+msgid ""
+"Injected into the content. You can choose the paragraph after which the ad "
+"content is displayed."
+msgstr ""
+"Вставлено в содержимое. Вы можете выбрать параграф, после которого "
+"содержимое объявления будет показано."
+
+#: admin/views/support.php:239
+msgid "Inserting <a href=\"#shortcodes\">shortcodes</a> manually."
+msgstr "Вставка <a href=\"#shortcodes\">шорткодов</a> вручную."
+
+#: admin/includes/class-overview-widgets.php:124
+#| msgid "issues"
+msgid "Issues"
+msgstr "Проблемы"
+
+#: admin/views/feedback-disable.php:34
+msgid "It is only temporary"
+msgstr "Это временно"
+
+#. JavaScript — это язык программирования, который используется во многих рекламных кодах. Если другой плагин, тема или пользовательский код вызывают ошибку JavaScript, они также могут нарушить работу другого кода и, следовательно, помешать показу рекламы.
+#: admin/views/support.php:477
+msgid ""
+"JavaScript is a programming language that is used in many advertising codes. "
+"If another plugin, theme, or custom code causes a JavaScript error, they can "
+"also disrupt the operation of other code and, therefore, interfere with the "
+"display of ads."
+msgstr ""
+"JavaScript — это язык программирования, который используется во многих "
+"рекламных кодах. Если другой плагин, тема или пользовательский код вызывают "
+"ошибку JavaScript, они также могут нарушить работу другого кода и, "
+"следовательно, помешать показу рекламы."
+
+#: public/class-vk-adnetwork.php:883
+msgctxt "label above ads"
+msgid "Advertisements"
+msgstr "Объявления"
+
+#. 1: The number of days.
+#: admin/class-vk-adnetwork-admin.php:279
+#, php-format
+msgid "Last %1$d days"
+msgstr "Последние %1$d дней"
+
+#. Варианты макета / вывода
+#: admin/views/support.php:45
+msgid "Layout/Output options"
+msgstr "Варианты макета / вывода"
+
+#: admin/views/header.php:58
+msgid "List options"
+msgstr "Параметры списка"
+
+#. Publish box date format, see http://php.net/date.
+#: admin/includes/class-ad-type.php:633
+msgid "M j, Y @ G:i"
+msgstr "d.m.Y H:i"
+
+#: classes/ad-debug.php:52
+msgid "main post"
+msgstr "основная запись"
+
+#: classes/ad-debug.php:101
+msgid "main query"
+msgstr "основной запрос"
+
+#: admin/views/support.php:440
+msgid ""
+"Make sure that the current <b>client_id</b> and <b>client_secret</b> are "
+"specified in the settings."
+msgstr ""
+"Убедитесь, что в настройках указаны действующие <b>client_id</b> и <b>"
+"client_secret</b>."
+
+#. Description of the plugin
+msgid "Manage VK AdNetwork ads in WordPress"
+msgstr "Управляйте рекламой Рекламной сети VK в WordPress"
+
+#: admin/includes/class-meta-box.php:180 admin/includes/class-meta-box.php:192
+#: admin/views/ad-output-metabox.php:35
+#: admin/views/settings/general/vk-adnetwork-disable-notices.php:15
+msgid "Manual"
+msgstr "Руководство"
+
+#: classes/ad_placements.php:87
+msgid "Manual Placement"
+msgstr "Ручное размещение"
+
+#: classes/ad_placements.php:88
+msgid "Manual placement to use as function or shortcode."
+msgstr "Ручное размещение для использования функции или шорткода."
+
+#. %s is a number -- the maximum file size
+#: modules/import-export/views/page.php:66
+#, php-format
+msgid "Maximum size: %s"
+msgstr "Максимальный размер: %s"
+
+#: admin/views/ad-submitbox-meta.php:41
+msgid "Minute"
+msgstr "Минута"
+
+#. %s is a list of PHP extensions.
+#: admin/includes/ad-health-notices.php:57
+#, php-format
+msgid ""
+"Missing PHP extensions could cause issues. Please ask your hosting provider "
+"to enable them: %s"
+msgstr ""
+"Отсутствующие расширения PHP могут вызывать проблемы. Пожалуйста, попросите "
+"Вашего хостинг провайдера разрешить следующие расширения PHP:%s"
+
+#. Модерация не пройдена
+#: admin/views/notices/other-issues-panel.php:12
+msgid "Moderation not passed"
+msgstr "Модерация не пройдена"
+
+#: admin/views/ad-submitbox-meta.php:25
+msgid "Month"
+msgstr "Месяц"
+
+#. Навигация
+#: admin/views/support.php:20
+msgid "Navigation"
+msgstr "Навигация"
+
+#. Новый рекламный блок
+#: admin/class-vk-adnetwork-admin.php:648
+#: admin/class-vk-adnetwork-admin.php:659 public/class-vk-adnetwork.php:713
+#: public/class-vk-adnetwork.php:719 admin/includes/class-menu.php:131
+msgid "New Ad"
+msgstr "Новый рекламный блок"
+
+#. %1$s is the ID ad-post, %2$s is the href of edit ad-post link
+#: modules/import-export/classes/import.php:174
+#, php-format
+#| msgid "New ad created: <em>%s</em> %s"
+msgid "New ad created: <em>%1$s</em> %2$s"
+msgstr "Новый рекламный блок создан: <em>%1$s</em> %2$s"
+
+#: public/class-vk-adnetwork.php:723
+msgid "No Ads found"
+msgstr "Объявлений не найдено"
+
+#: public/class-vk-adnetwork.php:724
+msgid "No Ads found in Trash"
+msgstr "Объявлений в корзине не найдено"
+
+#: admin/includes/class-overview-widgets.php:129
+#: admin/views/notices/other-issues-panel.php:18
+msgid "NO_ACTIVE_PADS"
+msgstr "Нет активных транслируемых блоков."
+
+#. Не каждый конфликт JavaScript должен мешать вашей рекламе, но обычно он нарушает что-то еще, поэтому их исправление в любом случае полезно для вашего сайта.
+#: admin/views/support.php:481
+msgid ""
+"Not every JavaScript conflict should interfere with your advertising, but it "
+"usually violates something else, so fixing them is useful for your site "
+"anyway."
+msgstr ""
+"Не каждый конфликт JavaScript должен мешать вашей рекламе, но обычно он "
+"нарушает что-то еще, поэтому их исправление в любом случае полезно для "
+"вашего сайта."
+
+#: admin/includes/class-overview-widgets.php:308
+msgid "not_delivering"
+msgstr "не транслируется"
+
+#: admin/includes/class-ad-type.php:108
+msgid "Notes"
+msgstr "Заметки"
+
+#: admin/includes/class-meta-box.php:67
+msgid "Notes (optional)"
+msgstr "Заметки (не обязательно)"
+
+#: admin/views/overview-notices.php:17
+msgid "Notifications"
+msgstr "Нотификации"
+
+#: admin/views/feedback-disable.php:46
+msgid "Only Deactivate"
+msgstr "Только деактивировать"
+
+#. %s: Option name.
+#: modules/import-export/classes/import.php:347
+#, php-format
+msgid "Option was updated: <em>%s</em>"
+msgstr "Опция была обновлена: <em>%s</em>"
+
+#: modules/import-export/views/page.php:32
+msgid "Options"
+msgstr "Параметры"
+
+#: admin/class-vk-adnetwork-admin.php:272
+msgid "or"
+msgstr "или"
+
+#. %1$s month, %2$s day, %3$s year, %4$s hour, %5$s minute.
+#: admin/views/ad-submitbox-meta.php:49
+#, php-format
+#| msgid "%1$s %2$s, %3$s @ %4$s %5$s"
+msgctxt ""
+"order of expiry date fields 1: month, 2: day, 3: year, 4: hour, 5: minute"
+msgid "%1$s %2$s, %3$s at %4$s %5$s"
+msgstr "%1$s %2$s, %3$s в %4$s %5$s"
+
+#: admin/includes/class-overview-widgets.php:321
+msgid "Pad"
+msgstr "Рекламный блок"
+
+#. %s is the number of Pad.
+#: admin/includes/class-overview-widgets.php:346
+#, php-format
+msgid "Pad %s statistic"
+msgstr "Статистика рекламного блока %s"
+
+#: admin/views/ad-list/slot_id.php:11
+msgid "Pad in VK AdNetwork"
+msgstr "Блок в Рекламной сети VK"
+
+#: admin/includes/class-overview-widgets.php:134
+msgid "PAD_ARCHIVED"
+msgstr "Блок заархивирован (удален)."
+
+#: admin/includes/class-overview-widgets.php:135
+msgid "PAD_BANNED"
+msgstr "Блок заблокирован."
+
+#: admin/views/settings/general/vk-adnetwork-creds.php:197
+msgid "pad_id"
+msgstr "id рекламного блока"
+
+#: admin/includes/class-overview-widgets.php:136
+msgid "PAD_ON_MODERATION"
+msgstr "Блок на модерации."
+
+#: admin/includes/class-overview-widgets.php:137
+msgid "PAD_STOPPED"
+msgstr "Блок остановлен."
+
+#: public/class-vk-adnetwork.php:725
+msgid "Parent Ad"
+msgstr "Родительское объявление"
+
+#: admin/includes/class-overview-widgets.php:132
+#| msgid "Partner is not approved."
+msgid "PARTNER_IS_NOT_APPROVED"
+msgstr "Партнёр не прошёл проверку."
+
+#: admin/class-vk-adnetwork-admin.php:286
+msgid "Permanently delete this placement?"
+msgstr "Удалить это место размещения навсегда?"
+
+#: admin/views/placement-injection-top.php:165
+msgid "PHP or Shortcode"
+msgstr "PHP или шорткод"
+
+#: classes/ad-debug.php:132 admin/includes/class-ad-type.php:111
+msgid "Placement"
+msgstr "Расположение"
+
+#. %s is the name of the placement
+#: modules/import-export/classes/import.php:241
+#, php-format
+msgid "Placement <em>%s</em> created"
+msgstr "Размещение <em>%s</em> создано"
+
+#: admin/views/ad-list/placement.php:14
+msgctxt "placement_type"
+msgid "default"
+msgstr "шорткод"
+
+#: admin/views/ad-list/placement.php:12
+msgctxt "placement_type"
+msgid "footer"
+msgstr "нижний колонтитул"
+
+#: admin/views/ad-list/placement.php:11
+msgctxt "placement_type"
+msgid "post_bottom"
+msgstr "в нижней секции"
+
+#: admin/views/ad-list/placement.php:10
+msgctxt "placement_type"
+msgid "post_content"
+msgstr "в контенте страницы"
+
+#: admin/views/ad-list/placement.php:9
+msgctxt "placement_type"
+msgid "post_top"
+msgstr "в верхней секции"
+
+#: admin/views/ad-list/placement.php:13
+msgctxt "placement_type"
+msgid "sidebar_widget"
+msgstr "виджет сайдбар"
+
+#: classes/widget.php:119 modules/import-export/views/page.php:31
+msgid "Placements"
+msgstr "Места размещения"
+
+#: classes/ad_type_plain.php:28
+msgid "Plain Text and Code"
+msgstr "Простой текст и код"
+
+#. Пожалуйста, проверьте его, прежде чем обращаться к нам за поддержкой.
+#: admin/views/support.php:423
+msgid "Please check it before contacting us for support."
+msgstr "Пожалуйста, проверьте его, прежде чем обращаться к нам за поддержкой."
+
+#. Пожалуйста, отключите блокировщики рекламы, а также любые надстройки, такие как Ghostery.
+#: admin/views/support.php:431
+msgid "Please disable ad blockers as well as any add-ons such as Ghostery."
+msgstr ""
+"Пожалуйста, отключите блокировщики рекламы, а также любые надстройки, такие "
+"как Ghostery."
+
+#: admin/views/notices/adblock.php:11
+msgid ""
+"Please disable your <strong>AdBlocker</strong> to prevent problems with your "
+"ad setup."
+msgstr ""
+"Пожалуйста, отключите <strong>AdBlocker</strong> во избежание проблем с "
+"настройкой ваших объявлений."
+
+#: modules/import-export/classes/import.php:64
+msgid "Please enter XML content"
+msgstr "Пожалуйста, введите XML контент"
+
+#: admin/views/feedback-disable.php:18
+msgid "Please let us know how we can help"
+msgstr "Пожалуйста, сообщите нам как мы можем Вам помочь"
+
+#. Плагины или сервисы, которые, как мы уже обнаружили, перемещают (любой) рекламный код со страниц:
+#: admin/views/support.php:464
+msgid ""
+"Plugins or services that, as we have already discovered, move (any) "
+"advertising code from pages:"
+msgstr ""
+"Плагины или сервисы, которые, как мы уже обнаружили, перемещают (любой) "
+"рекламный код со страниц:"
+
+#. %1$s is a list of plugin names; %2$s a target URL.
+#: admin/includes/ad-health-notices.php:46
+#, php-format
+msgid ""
+"Plugins that are known to cause (partial) problems: <strong>%1$s</strong>. "
+"<a href=\"%2$s\" target=\"_blank\">Learn more</a>."
+msgstr ""
+"Плагины, которые известны тем, что вызывают (некоторые)проблемы: <strong>"
+"%1$s</strong>. <a href=\"%2$s\" target=\"_blank\">Узнать больше</a>."
+
+#: admin/includes/class-list-filters.php:407
+msgctxt "Post list header for ads expiring in the future."
+msgid "Expiring"
+msgstr "Временные"
+
+#: admin/includes/class-list-filters.php:366
+msgctxt "Post list header for expired ads."
+msgid "Expired"
+msgstr "Просрочено"
+
+#: admin/views/ad-list/status.php:13
+msgctxt "post_status"
+msgid "draft"
+msgstr "черновик"
+
+#: admin/views/ad-list/status.php:16
+msgctxt "post_status"
+msgid "future"
+msgstr "запланирован"
+
+#: admin/views/ad-list/status.php:15
+msgctxt "post_status"
+msgid "pending"
+msgstr "на утверждении"
+
+#: admin/views/ad-list/status.php:14
+msgctxt "post_status"
+msgid "publish"
+msgstr "активен"
+
+#: admin/views/ad-list/status.php:17
+msgctxt "post_status"
+msgid "trash"
+msgstr "корзина"
+
+#: admin/views/overview-notices.php:13
+msgid "Problems"
+msgstr "Проблемы"
+
+#. %s is the address of the VK advertising network's help page
+#: admin/views/notices/moderation-done-panel.php:11
+#, php-format
+msgid ""
+"Publish previously created ad blocks — start earning. <a href=\"%s\">How to "
+"do it</a>"
+msgstr ""
+"Опубликуйте ранее созданные рекламные блоки — начните зарабатывать. <a "
+"href=\"%s\">Как это сделать</a>"
+
+#. Рекомендации
+#: admin/views/support.php:29 admin/views/support.php:165
+msgid "Recommendations"
+msgstr "Рекомендации"
+
+#: admin/views/settings/general/vk-adnetwork-creds.php:107
+msgid "refresh_token"
+msgstr "рефреш-токен"
+
+#. %s is the address of the registration page of the VK advertising network
+#: admin/views/support.php:86
+#, php-format
+#| msgid ""
+#| "Register in the VK Advertising Network using <a href=\"%s\" "
+#| "target=\"_blank\">the link</a>;"
+msgid ""
+"Register in the <strong>VK Advertising Network</strong> using <a href=\"%s\" "
+"target=\"_blank\">the link</a>;"
+msgstr ""
+"Зарегистрироваться в <strong>Рекламной сети VK</strong>  <a href=\"%s\" "
+"target=\"_blank\">по ссылке</a>;"
+
+#: admin/class-vk-adnetwork-admin.php:671 admin/includes/class-menu.php:226
+msgid "Registration in VK AdNetwork"
+msgstr "Регистрация в Рекламной сети ВК"
+
+#: admin/includes/class-overview-widgets.php:48
+msgid "Requests"
+msgstr "Запросы"
+
+#: admin/views/header.php:49
+msgid "Reset"
+msgstr "Сброс"
+
+#: admin/views/settings.php:111
+msgid "Save settings on this page"
+msgstr "Сохранить настройки"
+
+#: public/class-vk-adnetwork.php:722
+msgid "Search Ads"
+msgstr ""
+"Поиск рекламных блоков\n"
+
+#: admin/views/feedback-disable.php:44
+msgid "Send feedback"
+msgstr "Отправить отзыв"
+
+#: admin/views/feedback-disable.php:43
+msgid "Send feedback & deactivate"
+msgstr "Отправить отзыв и деактивировать"
+
+#. %s is the email address of the current user
+#: admin/views/feedback-disable.php:25
+#, php-format
+msgid "Send me free help to %s"
+msgstr "Вышлите мне бесплатную помощь на %s"
+
+#. %s stands for the name of the "Disable level limitation" option and automatically translated as well
+#: classes/in-content-injector.php:618
+#, php-format
+msgid "Set <em>%s</em> to show more ads"
+msgstr "Включите <em>%s</em> чтобы показывать больше объявлений"
+
+#. не вижу где это (
+#: admin/class-vk-adnetwork-admin.php:672 admin/includes/class-menu.php:140
+#: admin/includes/class-menu.php:141 admin/includes/class-menu.php:227
+msgid "Settings"
+msgstr "Настройки"
+
+#: admin/views/ad-usage.php:15
+msgid "Shortcode"
+msgstr "Шорткод"
+
+#: admin/views/support.php:370
+msgid "shortcode"
+msgstr "шорткод"
+
+#. Шорткоды
+#: admin/views/support.php:55 admin/views/support.php:378
+msgid "Shortcodes"
+msgstr "Шорткоды"
+
+#. Шорткоды — это самый простой способ вставить рекламу в любом месте статической страницы или поста.
+#: admin/views/support.php:384
+msgid ""
+"Shortcodes are the easiest way to insert ads anywhere on a static page or "
+"post."
+msgstr ""
+"Шорткоды — это самый простой способ вставить рекламу в любом месте "
+"статической страницы или поста."
+
+#. %s is the number of notices
+#: classes/frontend_checks.php:377
+msgid "Show %d more notifications"
+msgstr "Показать еще %d уведомлений"
+
+#. %s includes a number and markup like <span class="count">6</span>.
+#: admin/views/overview-notices.php:25
+#, php-format
+msgid "Show %s hidden notices"
+msgstr "Показать %s скрытые уведомления"
+
+#: admin/views/ad-list/screen-options.php:22
+msgid "Show filters permanently"
+msgstr "Показывать фильтры постоянно"
+
+#: admin/class-vk-adnetwork-admin.php:284
+msgid "Show inactive ads"
+msgstr "Показать неактивные объявления"
+
+#: admin/includes/class-list-filters.php:529
+msgid "Showing search results for"
+msgstr "Показать результаты поиска для"
+
+#: admin/views/support.php:354
+msgid "sidebar"
+msgstr "боковая панель"
+
+#. Виджет боковой панели
+#: classes/ad_placements.php:107 admin/views/placement-injection-top.php:143
+msgid "Sidebar Widget"
+msgstr "Виджет боковой панели"
+
+#: admin/includes/class-ad-type.php:109
+msgid "Size"
+msgstr "Размер"
+
+#: admin/views/settings/general/vk-adnetwork-creds.php:222
+msgid "slot_id"
+msgstr "id слота"
+
+#. Некоторые общие проблемы также упоминаются в верхней части страницы дополнительных настроек рекламы. Просто перейдите в «VK AdNetwork» > «Поддержка» , чтобы увидеть их.
+#: admin/views/support.php:455
+msgid ""
+"Some common issues are also mentioned at the top of the advanced ad settings "
+"page. Just go to \"VK AdNetwork\" > \"Support\" to see them."
+msgstr ""
+"Некоторые общие проблемы также упоминаются в верхней части страницы "
+"дополнительных настроек рекламы. Просто перейдите в «VK AdNetwork» > "
+"«Поддержка» , чтобы увидеть их."
+
+#. Некоторые плагины, настройки сервера или пользовательский код «оптимизируют» или минимизируют скрипты или другой вывод внешнего кода. Наиболее распространенный источник конфликта здесь — если они (повторно) перемещают код или скрипты JavaScript. Поскольку большинство рекламных кодов ломаются при таких манипуляциях, функции конфликтуют с ними по замыслу.
+#: admin/views/support.php:460
+msgid ""
+"Some plugins, server settings, or custom code \"optimize\" or minimize "
+"scripts or other output from external code. The most common source of "
+"conflict here is if they (repeatedly) move JavaScript code or scripts. Since "
+"most advertising codes break with such manipulations, the functions conflict "
+"with them by design."
+msgstr ""
+"Некоторые плагины, настройки сервера или пользовательский код «оптимизируют» "
+"или минимизируют скрипты или другой вывод внешнего кода. Наиболее "
+"распространенный источник конфликта здесь — если они (повторно) перемещают "
+"код или скрипты JavaScript. Поскольку большинство рекламных кодов ломаются "
+"при таких манипуляциях, функции конфликтуют с ними по замыслу."
+
+#. Начните с определения заголовка для вашего рекламного блока.
+#: admin/views/support.php:210
+msgid "Start by defining the title for your ad block."
+msgstr "Начните с определения заголовка для вашего рекламного блока."
+
+#: modules/import-export/views/page.php:75
+msgid "Start import"
+msgstr "Начать импорт"
+
+#. %s is a date.
+#: admin/views/ad-list/timing.php:26
+#, php-format
+msgid "starts %s"
+msgstr "начинается %s"
+
+#: admin/includes/class-overview-widgets.php:346
+msgid "Statistic (all pads)"
+msgstr "Статистика (все рекламные блоки)"
+
+#. не вижу где это (
+#: admin/class-vk-adnetwork-admin.php:506 admin/includes/class-menu.php:150
+#: admin/includes/class-menu.php:151
+msgid "Support"
+msgstr "Поддержка"
+
+#: admin/views/ad-usage.php:22
+msgid "Template (PHP)"
+msgstr "Шаблон (PHP)"
+
+#: admin/includes/class-overview-widgets.php:307
+msgid "test_delivering"
+msgstr "тестовая трансляция"
+
+#: admin/views/feedback-disable.php:49
+msgid ""
+"Thanks for submitting your feedback. I will reply within 24 hours on working "
+"days."
+msgstr "Спасибо за Ваш отзыв. Я отвечаю по рабочим дням в течение 24 часов."
+
+#: admin/views/support.php:157
+msgid ""
+"The \"Advertising\" page of the plugin, after creating the first ad block"
+msgstr "Страница «Реклама» плагина, после создания первого рекламного блока"
+
+#. %s is string 'simplexml'
+#. %s is string 'dom'
+#. %s: A name of not loaded extension.
+#: modules/import-export/classes/XmlEncoder.php:63
+#: modules/import-export/classes/XmlEncoder.php:68
+#: modules/import-export/classes/XmlEncoder.php:207
+#: modules/import-export/classes/XmlEncoder.php:211
+#, php-format
+msgid "The %s extension(s) is not loaded"
+msgstr "Расширение(я) %s не загружено"
+
+#: admin/views/support.php:24 admin/views/support.php:76
+#| msgid ""
+#| "The <strong>VK AdNetwork</strong> plugin is designed to place ad units of "
+#| "the VK Advertising Network on your website."
+msgid ""
+"The <strong>VK AdNetwork</strong> plugin is designed to place ad units of "
+"the VK Advertising Network on your website."
+msgstr ""
+"Плагин <strong>VK AdNetwork</strong> предназначен для размещения рекламных "
+"блоков Рекламной сети VK на вашем сайте."
+
+#. Режим отладки рекламы помогает вам (и нам) выявить проблемы на вашей странице, которые могут помешать показу рекламы. Режим отладки особенно полезен, если условия отображения не работают должным образом.
+#: admin/views/support.php:512
+msgid ""
+"The ad debugging mode helps you (and us) identify problems on your page that "
+"may interfere with the display of ads. Debugging mode is especially useful "
+"if the display conditions are not working properly."
+msgstr ""
+"Режим отладки рекламы помогает вам (и нам) выявить проблемы на вашей "
+"странице, которые могут помешать показу рекламы. Режим отладки особенно "
+"полезен, если условия отображения не работают должным образом."
+
+#: classes/ad-debug.php:33
+msgid "The ad is displayed on the page"
+msgstr "Объявление показывается на странице"
+
+#: classes/ad-debug.php:35
+msgid "The ad is not displayed on the page"
+msgstr "Объявление не показывается на странице"
+
+#: admin/views/ad-parameters-size.php:77
+msgid "The advertising code of this block to be inserted"
+msgstr "Рекламный код этого блока, который будет вставлен"
+
+#. %s is the wordpress domain where this plugin is located
+#: admin/views/settings.php:49
+#, php-format
+msgid ""
+"the advertising network <b>VK AdNetwork</b> will create a platform for the "
+"domain <b>%s</b></li>"
+msgstr ""
+"в рекламной сети  <b>VK AdNetwork</b> будет создана платформа для домена <b>"
+"%s</b></li>"
+
+#: classes/frontend_checks.php:146
+msgid "the current post ID is 0 "
+msgstr "текущий ID записи =0"
+
+#. %s is the name of the temporary file
+#: modules/import-export/classes/import.php:403
+#, php-format
+msgid ""
+"The file could not be created: <em>%s</em>. This is probably a permissions "
+"problem"
+msgstr ""
+"Невозможно создать файл: <em>%s</em>. Возможна проблема с правами доступа."
+
+#: classes/frontend_checks.php:451
+msgid ""
+"the following code is used for automatic error detection and only visible to "
+"admins"
+msgstr ""
+"нижеследующий код отвечает за автоматическое определение ошибок и виден "
+"только администраторам"
+
+#: admin/views/ad-parameters-size.php:57
+msgid ""
+"The formats \"300x600\" and \"300x250\" and the location of the \"Sidebar "
+"widget\"<br>"
+msgstr ""
+"Форматы «300x600» и «300x250» и расположение «Виджет боковой панели»<br>"
+
+#. %s is the address of the VK advertising network's help page
+#: admin/views/notices/moderation-panel.php:11
+#, php-format
+msgid ""
+"The keys have been successfully added, it remains to wait for the moderation "
+"of the site. <a href=\"%s\">Learn more</a>"
+msgstr ""
+"Ключи успешно добавлены, осталось дождаться модерацию площадки. <a "
+"href=\"%s\">Подробнее</a>"
+
+#. Площадка на модерации
+#: admin/views/notices/moderation-panel.php:5
+msgid "The platform is under moderation"
+msgstr "Площадка на модерации"
+
+#. Плагин создаст:
+#: admin/views/support.php:111
+msgid "The plugin will create:"
+msgstr "Плагин создаст:"
+
+#. Положение рекламы относительно текста
+#: admin/views/support.php:50 admin/views/support.php:287
+msgid "The position of the advertisement relative to the text"
+msgstr "Положение рекламы относительно текста"
+
+#. Описанные ниже проблемы часто вызваны неработающим кодом в других плагинах или темах и могут вызывать проблемы не только с VK AdNetwork. Поэтому, как правило, рекомендуется их исправлять.
+#: admin/views/support.php:517
+msgid ""
+"The problems described below are often caused by broken code in other "
+"plugins or themes and can cause problems not only with VK AdNetwork. "
+"Therefore, as a rule, it is recommended to correct them."
+msgstr ""
+"Описанные ниже проблемы часто вызваны неработающим кодом в других плагинах "
+"или темах и могут вызывать проблемы не только с VK AdNetwork. Поэтому, как "
+"правило, рекомендуется их исправлять."
+
+#: admin/views/support.php:395
+msgid ""
+"The shortcodes can be found on the page <a href=\"edit.php?"
+"post_type=vk_adnetwork\" target=\"_blank\">\"Advertising\"</a>, they have "
+"the following structure:"
+msgstr ""
+"Шорткоды можно найти на странице <a href=\"edit.php?post_type=vk_adnetwork\" "
+"target=\"_blank\">«Реклама»</a>, они имеют следующую структуру:"
+
+#: admin/includes/class-overview-widgets.php:156
+msgid ""
+"The site has been moderated. There are moderated and broadcast ad units."
+msgstr ""
+"Сайт прошел модерацию. Есть прошедшие модерацию и транслируемые рекламные "
+"блоки."
+
+#: admin/views/settings.php:54
+msgid ""
+"the site must pass moderation before ads will be displayed on it (this is "
+"about a day approximately)"
+msgstr ""
+"площадка должна пройти модерацию, прежде чем на ней будет показываться "
+"реклама (это около суток примерно)"
+
+#. Размер отладочного рекламного блока определяется шириной и высотой, которые вы установили для рекламного блока, и 300×250, если вы их не задали. Содержимое отладочной рекламы можно прокручивать по горизонтали и вертикали.
+#: admin/views/support.php:550
+msgid ""
+"The size of the debugging ad block is determined by the width and height "
+"that you have set for the ad block, and 300×250 if you have not set them. "
+"The content of the debugging ad can be scrolled horizontally and vertically."
+msgstr ""
+"Размер отладочного рекламного блока определяется шириной и высотой, которые "
+"вы установили для рекламного блока, и 300×250, если вы их не задали. "
+"Содержимое отладочной рекламы можно прокручивать по горизонтали и вертикали."
+
+#: admin/class-vk-adnetwork-admin.php:283
+msgid ""
+"There were no results returned for this ad. Please make sure it is active, "
+"generating impressions and double check your ad parameters."
+msgstr ""
+"Не удалось найти результатов для этого объявления. Пожалуйста, убедитесь что "
+"оно активно, генерирует показы и дважды проверьте его параметры."
+
+#: admin/views/settings.php:63
+msgid ""
+"this advertising position will be placed on the wordpress pages <b>above the "
+"content</b> and <b>in the center</b>"
+msgstr ""
+"эта рекламная позиция будет размещена на страницах вордпресса <b>над "
+"контентом</b> и <b>по центру</b>"
+
+#: admin/views/settings.php:66
+msgid "this advertising position will have the status <b>Draft</b>"
+msgstr "эта рекламная позиция будет в статусе <b>Черновик</b>"
+
+#. %s is the address of the user's profile page on the VK advertising network
+#: admin/views/settings/general/vk-adnetwork-creds.php:27
+#: admin/views/settings/general/vk-adnetwork-creds.php:52
+#, php-format
+msgid ""
+"This information can be found in your <a href=\"%s\" target=\"blank\">VK "
+"AdNetwork profile</a>"
+msgstr ""
+"Эту информацию можно найти в Вашем <a href=\"%s\" target=\"blank\">профиле "
+"VK AdNetwork</a>"
+
+#: admin/class-vk-adnetwork-admin.php:277
+msgid "This Month"
+msgstr "В этом месяце"
+
+#. На этой странице приведены наиболее распространенные причины отсутствия рекламных блоков.
+#: admin/views/support.php:421
+msgid "This page lists the most common reasons for the absence of ad blocks."
+msgstr ""
+"На этой странице приведены наиболее распространенные причины отсутствия "
+"рекламных блоков."
+
+#. Это позволит не только увеличить доход, но и получать статистику по каждому блоку отдельно.
+#: admin/views/support.php:173
+msgid ""
+"This will allow not only to increase income, but also to receive statistics "
+"for each block separately."
+msgstr ""
+"Это позволит не только увеличить доход, но и получать статистику по каждому "
+"блоку отдельно."
+
+#. Через рекламные позиции.
+#: admin/views/support.php:234
+#| msgid "Through advertising slots."
+msgid "Through advertising positions."
+msgstr "Через рекламные позиции."
+
+#. time zone name.
+#: classes/utils.php:178
+#, php-format
+msgid "time of %s"
+msgstr "часовой пояс %s"
+
+#: classes/widget.php:113
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: admin/views/support.php:267
+#, php-format
+#| msgid ""
+#| "To change the block output settings, go to <a href=\"edit.php?"
+#| "post_type=vk_adnetwork\" target=\"_blank\">\"Advertising\"</a> and create "
+#| "a new ad block or open an existing one."
+msgid ""
+"To change the block output settings, go to <a href=\"%s\" target=\"_blank\">"
+"\"Advertising\"</a> and create a new ad block or open an existing one."
+msgstr ""
+"Чтобы изменить настройки вывода блока, перейдите в раздел <a href=\"%s\" "
+"target=\"_blank\">«Реклама»</a> и создайте новый рекламный блок или откройте "
+"существующий."
+
+#: admin/views/support.php:204
+msgid ""
+"To create an ad block, go to <b>\"VK AdNetwork\" > \"Advertising\"</b> and "
+"click <b>\"New ad block\"</b> - an editing window will open."
+msgstr ""
+"Чтобы создать рекламный блок, перейдите в раздел <b>«VK AdNetwork» > "
+"«Реклама»</b> и нажмите <b>«Новый рекламный блок»</b> - откроется окно "
+"редактирования."
+
+#. Для тестирования корректности показа рекламы на сайте рекомендуем предварительно использовать режим отладки  (VK AdNetwork)
+#: admin/views/support.php:567
+msgid ""
+"To test the correctness of the display of ads on the site, we recommend "
+"using the debugging mode (VK AdNetwork) beforehand."
+msgstr ""
+"Для тестирования корректности показа рекламы на сайте рекомендуем "
+"предварительно использовать режим отладки (VK AdNetwork)"
+
+#. Для работы с плагином и размещения рекламных блоков Вам не нужны дополнительные знания, только нужно сделать несколько действий:
+#: admin/views/support.php:80
+msgid ""
+"To work with the plugin and place ad blocks, you do not need additional "
+"knowledge, you just need to do a few actions:"
+msgstr ""
+"Для работы с плагином и размещения рекламных блоков Вам не нужны "
+"дополнительные знания, только нужно сделать несколько действий:"
+
+#: admin/class-vk-adnetwork-admin.php:275
+msgid "Today"
+msgstr "Сегодня"
+
+#: classes/utils.php:673
+msgid "Tokens are deleted and saved"
+msgstr "Токены удалены и сохранены"
+
+#: classes/utils.php:679
+msgid "Tokens are updated and saved"
+msgstr "Токены обновлены и сохранены"
+
+#: admin/views/settings/general/vk-adnetwork-creds.php:131
+msgid "Tokens left"
+msgstr "Токенов осталось"
+
+#: classes/utils.php:685
+msgid "Tokens NOT updated, error"
+msgstr "Токены НЕ обновлены, ошибка"
+
+#: admin/views/support.php:319
+msgid "Top of the content"
+msgstr "Сверху контента"
+
+#: admin/views/placement-injection-top.php:41
+msgid "Top section"
+msgstr "В верхней секции"
+
+#. Попробуйте другой браузер
+#: admin/views/support.php:443
+msgid "Try another browser"
+msgstr "Попробуйте другой браузер"
+
+#. Попробуйте исключить конфликт плагинов, отключив некоторые из них. Возможно, вы захотите поискать плагины, которые:
+#: admin/views/support.php:488
+msgid ""
+"Try to eliminate the conflict of plugins by disabling some of them. You "
+"might want to look for plugins that:"
+msgstr ""
+"Попробуйте исключить конфликт плагинов, отключив некоторые из них. Возможно, "
+"вы захотите поискать плагины, которые:"
+
+#: admin/includes/class-overview-widgets.php:138
+msgid "UNDEFINED"
+msgstr "Неизвестно."
+
+#. Обновите все плагины и WordPress
+#: admin/views/support.php:436
+msgid "Update all plugins and WordPress"
+msgstr "Обновите все плагины и WordPress"
+
+#. Обновите до последней версии VK AdNetwork, его надстройки, все остальные плагины и WordPress. Возможно, проблема, с которой вы столкнулись, уже устранена.
+#: admin/views/support.php:438
+msgid ""
+"Update to the latest version of VK AdNetwork, its settings, all other "
+"plugins and WordPress. Perhaps the problem you are facing has already been "
+"fixed."
+msgstr ""
+"Обновите до последней версии VK AdNetwork, его надстройки, все остальные "
+"плагины и WordPress. Возможно, проблема, с которой вы столкнулись, уже "
+"устранена."
+
+#. Включите эту опцию для того, чтобы отключить все объявления во фронтенде, но по-прежнему иметь возможность пользоваться плагином.
+#: admin/views/settings/general/vk-adnetwork-disable-ads.php:21
+msgid ""
+"Use this option to disable all ads in the frontend, but still be able to use "
+"the plugin."
+msgstr ""
+"Включите эту опцию для того, чтобы отключить все объявления во фронтенде, но "
+"по-прежнему иметь возможность пользоваться плагином."
+
+#: admin/includes/class-overview-widgets.php:139
+msgid "USER_INACTIVE"
+msgstr "Пользователь не активен."
+
+#. Использование режима отладки рекламы
+#: admin/views/support.php:65 admin/views/support.php:506
+msgid "Using the ad debugging mode"
+msgstr "Использование режима отладки рекламы"
+
+#. С помощью редактора WordPress можно вставить шорткод в любое место статьи или иной страницы.
+#: admin/views/support.php:407
+msgid ""
+"Using the WordPress editor, you can insert a shortcode anywhere in an "
+"article or other page."
+msgstr ""
+"С помощью редактора WordPress можно вставить шорткод в любое место статьи "
+"или иной страницы."
+
+#: public/class-vk-adnetwork.php:720
+msgid "View"
+msgstr "Смотреть"
+
+#: public/class-vk-adnetwork.php:721
+msgid "View the Ad"
+msgstr "Посмотреть объявление"
+
+#. %s -- empty space for the number of ads
+#: classes/frontend_checks.php:236
+#, php-format
+msgid "Visible ads should not use the Header placement: %s"
+msgstr "Видимые объявления не должны использовать заголовок размещения: %s"
+
+#. Посетите наш блог и прочтите больше статей об оптимизации рекламы
+#: admin/includes/class-meta-box.php:442
+msgid "Visit our blog for more articles about ad optimization"
+msgstr "Посетите наш блог и прочтите больше статей об оптимизации рекламы"
+
+#. Author of the plugin
+msgid "VK Ad Network"
+msgstr "VK Реклама"
+
+#. Name of the plugin
+msgid "VK AdNetwork"
+msgstr "VK AdNetwork"
+
+#. %1$s is a starting link tag, %2$s is closing the link tag.
+#: admin/views/checks.php:14
+#, php-format
+#| msgid ""
+#| "VK AdNetwork detected potential problems with your ad setup. %1$sShow me "
+#| "these errors%2$s"
+msgid ""
+"VK AdNetwork detected potential problems with your ad setup. %1$sShow me "
+"these errors%2$s"
+msgstr ""
+"VK AdNetwork обнаружил потенциальные проблемы с настройкой ваших объявлений. "
+"%1$sПоказать эти ошибки%2$s"
+
+#: public/class-vk-adnetwork.php:403
+msgid "VK AdNetwork Error following:"
+msgstr "Ошибка VK AdNetwork: %s"
+
+#. %s is an error message generated by the plugin.
+#: public/class-vk-adnetwork.php:407
+#, php-format
+msgid "VK AdNetwork Error: %s"
+msgstr "Ошибка VK AdNetwork: %s"
+
+#: admin/includes/ad-health-notices.php:75
+msgid "VK AdNetwork related constants enabled"
+msgstr "связанные константы VK AdNetwork  активированы"
+
+#. VK AdNetwork пытается решить такие проблемы автоматически, но мы все равно можем что-то упустить.
+#: admin/views/support.php:462
+msgid ""
+"VK AdNetwork tries to solve such problems automatically, but we may still "
+"miss something."
+msgstr ""
+"VK AdNetwork пытается решить такие проблемы автоматически, но мы все равно "
+"можем что-то упустить."
+
+#. %s is the address of the VK advertising network's help page
+#: admin/views/notices/moderation-panel.php:19
+#, php-format
+msgid ""
+"We have created the first ad block for you. You can customize it or create "
+"another one — try it! After the platform passes moderation, publish the ad "
+"blocks and start earning. <a href=\"%s\">Learn more</a>"
+msgstr ""
+"Мы создали для вас первый рекламный блок. Можете настроить его или создать "
+"ещё — попробуйте! После того, как площадка пройдёт модерацию, опубликуйте "
+"рекламные блоки и начните зарабатывать. <a href=\"%s\">Подробнее</a>"
+
+#. %s is the address of the VK advertising network's help page
+#: admin/views/notices/starter-setup-success.php:21
+#, php-format
+msgid ""
+"We have created the first ad unit for you. You can customize it or create "
+"more - try it! After the site passes moderation, publish ad units and start "
+"earning. <a href=\"%s\" target=\"_blank\">More</a>"
+msgstr ""
+"Мы создали для вас первый рекламный блок. Можете настроить его или создать "
+"ещё — попробуйте! После того, как площадка пройдёт модерацию, опубликуйте "
+"рекламные блоки и начните зарабатывать. <a href=\"%s\" target=\"_blank\">"
+"Подробнее</a>"
+
+#. Мы рекомендуем Autoptimize и WP Rocket для кэширования и оптимизации скорости сайта.
+#: admin/views/support.php:472
+msgid ""
+"We recommend Autoptimize and WP Rocket for caching and optimizing site speed."
+msgstr ""
+"Мы рекомендуем Autoptimize и WP Rocket для кэширования и оптимизации "
+"скорости сайта."
+
+#. Мы рекомендуем использовать описательные заголовки, которые помогут вам позже идентифицировать объявление, например, "Кампания А | Таблица лидеров | Заголовок".
+#: admin/views/support.php:215
+msgid ""
+"We recommend using descriptive headings that will help you identify the ad "
+"later, for example, \"Campaign A | Leaderboard | Headline\"."
+msgstr ""
+"Мы рекомендуем использовать описательные заголовки, которые помогут вам "
+"позже идентифицировать объявление, например, \"Кампания А | Таблица лидеров "
+"| Заголовок\"."
+
+#. Добро пожаловать в VK AdNetwork!
+#: admin/views/notices/welcome-panel.php:13
+msgid "Welcome to VK AdNetwork!"
+msgstr "Добро пожаловать в VK AdNetwork!"
+
+#: modules/import-export/views/page.php:24
+#| msgid ""
+#| "When you click the button below VK AdNetwork will create an XML file for "
+#| "you to save to your computer."
+msgid ""
+"When you click the button below VK AdNetwork will create an XML file for you "
+"to save to your computer."
+msgstr ""
+"После нажатия на кнопку внизу VK AdNetwork создаст XML файл, и вы сможете "
+"сохранить его на свой компьютер."
+
+#: admin/views/settings.php:45
+msgid ""
+"When you fill in the fields <b>client_id</b> and <b>client_secret</b> and "
+"click \"Save settings on this page\", the following will happen:"
+msgstr ""
+"Когда вы заполните поля <b>client_id</b> и <b>client_secret</b> и нажмёте "
+"кнопку «Сохранить настройки на этой странице», то произойдет следующее:"
+
+#: admin/views/ad-parameters-size.php:95
+msgid ""
+"When you press the button <u>Save</u> or <u>Publish</u> you will be taken to "
+msgstr ""
+"Когда вы нажмёте кнопку <u>Сохранить</u> или <u>Опубликовать</u> вы попадете "
+"в "
+
+#: admin/views/feedback-disable.php:36
+msgid "Which one?"
+msgstr "Какой?"
+
+#: admin/views/feedback-disable.php:15
+#| msgid "Why did you decide to disable VK AdNetwork?"
+msgid "Why did you decide to disable VK AdNetwork?"
+msgstr "Почему вы решили отключить VK AdNetwork?"
+
+#. С десятками тысяч плагинов во вселенной WordPress всегда есть шанс, что некоторые из них не будут работать вместе.
+#: admin/views/support.php:486
+msgid ""
+"With tens of thousands of plugins in the WordPress universe, there's always "
+"a chance that some of them won't work together."
+msgstr ""
+"С десятками тысяч плагинов во вселенной WordPress всегда есть шанс, что "
+"некоторые из них не будут работать вместе."
+
+#: admin/views/ad-submitbox-meta.php:39
+msgid "Year"
+msgstr "Год"
+
+#: admin/class-vk-adnetwork-admin.php:276
+msgid "Yesterday"
+msgstr "Вчера"
+
+#. Вы используете тему, которая не поддерживает виджеты.
+#: admin/views/ad-parameters-size.php:61
+msgid "You are using a theme that does not support widgets."
+msgstr "Вы используете тему, которая не поддерживает виджеты."
+
+#: admin/views/settings.php:75
+msgid "you can also add more ad blocks in other places on your site"
+msgstr ""
+"так же вы можете добавлять еще блоки с рекламой в других меcтах вашего сайта"
+
+#. Вы можете отключить плагины и вернуться к теме по умолчанию только для своей учетной записи, а не для всех остальных на вашем сайте, используя плагин Health Check.
+#: admin/views/support.php:496
+msgid ""
+"You can disable plugins and return to the default theme only for your "
+"account, and not for everyone else on your site, using the Health Check "
+"plugin."
+msgstr ""
+"Вы можете отключить плагины и вернуться к теме по умолчанию только для своей "
+"учетной записи, а не для всех остальных на вашем сайте, используя плагин "
+"Health Check."
+
+#. Вы можете найти режим отладки в блоке «Режим отладки» на экране редактирования рекламного блока.
+#: admin/views/support.php:530 admin/views/support.php:562
+msgid ""
+"You can find the debugging mode in the \"Debugging Mode\" section on the ad "
+"block editing screen."
+msgstr ""
+"Вы можете найти режим отладки в блоке «Режим отладки» на экране "
+"редактирования рекламного блока."
+
+#. %s is the address of the page with statistics and graphs of this plugin
+#: admin/views/support.php:147
+#, php-format
+msgid ""
+"You can get acquainted with the verification status both in the personal "
+"account of the <strong>VK Advertising Network</strong> and on the <a "
+"href=\"%s\" target=\"_blank\">\"Statistics\"</a> page."
+msgstr ""
+"Со статусом проверки Вы можете ознакомиться как в личном кабинете <strong>"
+"Рекламной сети VK</strong>, так и на странице <a href=\"%s\" "
+"target=\"_blank\">«Статистика»</a>."
+
+#. %s is the address of the VK advertising network server
+#: admin/views/overview.php:15
+#, php-format
+#| msgid ""
+#| "You can get more information about the Website and ad blocks in <a "
+#| "href=\"%s\">VK AdNetwork personal account</a>."
+msgid ""
+"You can get more information about the Website and ad blocks in <a "
+"href=\"%s\">VK AdNetwork personal account</a>."
+msgstr ""
+"Больше информации про сайт и рекламные блоки Вы можете получить в <a "
+"href=\"%s\">личном кабинете VK AdNetwork</a>."
+
+#: admin/views/settings/general/vk-adnetwork-hide-for-user-role.php:12
+msgid ""
+"You can turn off ad serving for administrators, editors, and authors. <br> "
+"Other users will see ads."
+msgstr ""
+"Вы можете отключить показ рекламы для администраторов, редакторов и авторов. "
+"<br> \n"
+"Остальные пользователи будут видеть рекламу."
+
+#. Вы можете использовать один из следующих методов:
+#: admin/views/support.php:230
+msgid "You can use one of the following methods:"
+msgstr "Вы можете использовать один из следующих методов:"
+
+#: admin/includes/class-ad-type.php:653
+#| msgid ""
+#| "You don’t have access to ads. Please deactivate and re-enable VK "
+#| "AdNetwork Ads again to fix this."
+msgid ""
+"You don’t have access to ads. Please deactivate and re-enable VK AdNetwork "
+"again to fix this."
+msgstr ""
+"У вас нет доступа к объявлениям. Для исправления пожалуйста отключите и "
+"включите VK AdNetwork снова."
+
+#: classes/frontend_checks.php:91
+msgid "You look like a bot"
+msgstr "Вы похожи на бота"
+
+#. %s is the address of the registration page of the VK advertising network
+#. %s is the address of the VK advertising network's help page
+#: admin/views/settings.php:31 admin/views/notices/welcome-panel.php:20
+#, php-format
+msgid ""
+"You will need to <a href=\"%s\">register</a> in the <b>VK AdNetwork</b> "
+"advertising network and get an API access key."
+msgstr ""
+"Вам необходимо <a href=\"%s\">зарегистрироваться</a> в рекламной сети <b>VK "
+"AdNetwork</b>, чтобы получить ключи для доступа к API."
+
+#. %1$s is a version number.
+#: admin/includes/ad-health-notices.php:34
+#, php-format
+#| msgid ""
+#| "Your <strong>PHP version (%1$s) is too low</strong>. VK AdNetwork is "
+#| "built for PHP %2$s and higher. It might work, but updating PHP is highly "
+#| "recommended. Please ask your hosting provider for more information."
+msgid ""
+"Your <strong>PHP version (%1$s) is too low</strong>. VK AdNetwork is built "
+"for PHP %2$s and higher. It might work, but updating PHP is highly "
+"recommended. Please ask your hosting provider for more information."
+msgstr ""
+"Ваша <strong>версия PHP (%1$s) слишком старая</strong>. VK AdNetwork написан "
+"под версию PHP %2$s и выше. Плагин может работать, но обновить PHP крайне "
+"рекомендуется. Если вам нужна помощь в этом, обратитесь к вашему хостинг-"
+"провайдеру."
+
+#: classes/frontend_checks.php:221 classes/ad-debug.php:150
+msgid ""
+"Your website is using HTTPS, but the ad code contains HTTP and might not "
+"work."
+msgstr ""
+"Ваш сайт использует протокол HTTPS, но код этого объявления содержит HTTP и "
+"может не работать."
+
+#: admin/includes/class-ad-type.php:107
+msgid "Статус"
+msgstr "Статус"
+
+#. %s is the time the ad was first saved.
+#: admin/includes/class-ad-type.php:549
+#, php-format
+#| msgid "Ad created on %s"
+msgid "сreated on %s"
+msgstr "создан %s"

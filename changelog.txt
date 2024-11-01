@@ -1,0 +1,74 @@
+== Changelog ==
+
+= 4.06 (May 13, 2024) =
+
+- Wordpress 6.5.2
+- more than one inPage banner on one page
+
+= 4.05 (Feb 14, 2024) =
+
+- readme, review pt. 3
+
+= 4.04 (Nov 09, 2023) =
+
+- Wordpress 6.4
+- don't use curl_exec, move_uploaded_file, <<<
+
+= 4.03 (Aug 30, 2023) =
+
+- inPage Ads (top/bottom/content) and 970x250 (footer)
+
+= 4.02 (Aug 29, 2023) =
+
+- insert 'params: { test_mode: 1 }' into the player code only if the [x] checkmark is checked in the admin panel to enable debugging mode (VK AdNetwork)
+
+= 4.01 (Aug 28, 2023) =
+
+- inPage Ads
+
+= 3.01 (Aug 14, 2023) =
+
+- no dummy graphs on moderation
+- no <div style="background: brown> on no banners
+- styling, rewrite texts
+
+= 2.010 (Aug 10, 2023) =
+
+- mass refactoring, styling, rewrite texts
+
+= 1.410 (Jun 7, 2023) =
+
+- no <select> for select MT ad block -- <input type=hidden>
+
+= 1.408 (Jun 6, 2023) =
+
+- translate
+- monogamia
+
+= 1.400 (Jun 2, 2023) =
+
+- refactoring curls 2 MT
+- notices about moderatuon
+- monogamia ads-wordpress 1:1 ads-VK AdNetwork
+
+= 1.300 (May 30, 2023) =
+
+- redesign page charts
+
+= 1.280 (May 24, 2023) =
+
+- translate 99%
+
+= 1.0.250 (May 17, 2023) =
+
+- support page alfa-version
+
+= 1.0.242 (May 16, 2023) =
+
+- Requires PHP: 7.4
+- review & drop files - views/*.php
+- all func revision
+
+= 1.0.0 (April 1, 2023) =
+
+* initial version
